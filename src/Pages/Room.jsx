@@ -41,8 +41,8 @@ export default function App() {
       '&role=Audience',
   });
   // generate Kit Token
-  const appID = 1948529655;
-  const serverSecret = "7a0fb15fbfa9e111943aa73804b7d7bb";
+  const appID = *******;
+  const serverSecret = "**************";
   const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
     appID, 
     serverSecret, 
